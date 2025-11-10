@@ -1,0 +1,140 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+.navsection{
+    /* border:2px solid black; */
+    height: 155px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-self: center;
+    gap:10%;
+}
+.logo{
+    /* border:2px solid red; */
+    width:100px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.navlinks{
+    /* border:2px solid blue; */
+    width: 60%;
+    height: 100%;
+    margin-left: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap:20%; */
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main1{
+    /* border: 2px solid green; */
+    height:100vh
+}
+.div1 {
+    background-image: url("./Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* <-- keeps background fixed */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div1>.p1 {
+    margin-left: 5%;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: 'Proxima Nova', sans-serif;
+    border-radius: 5px;
+}
+
+.div1>.p2{
+    margin-top:1%;
+    margin-left:5%;
+    color:white;
+    font-size:30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+}
+.main2{
+    /* border: 2px solid green; */
+    height:100vh
+}
+.div2{
+    background-image: url("./Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* <-- keeps background fixed */
+    height: 100vh;
+}
+.renov{
+    /* border: 2px solid orange; */
+    background-color:#ffffff ;
+    height: 50vh;
+}
+.renovate{
+    /* border: 2px solid white; */
+    /* padding:20px 20px 20px 20px; */
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    height: 80%;
+    width:80%;
+    color: black;
+}
+.main3{
+    /* border: 2px solid green; */
+    height:100vh;
+    width: 100%;
+}
+.div3{
+    background-image: url("./services.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* <-- keeps background fixed */
+    height: 100vh;
+}
+.main4{
+    /* border: 2px solid green; */
+    height:100vh
+}
+.div4{
+    background-image: url("./gallery.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* <-- keeps background fixed */
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.div4 p {
+    margin-left: 20px;
+    /* border: 2px solid white; */
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
